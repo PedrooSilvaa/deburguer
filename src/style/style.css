@@ -1,0 +1,55 @@
+    @font-face {
+        font-family:'fonte';
+        src: url('../font/Insanibu.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:'fonte', Times, serif;
+    }
+
+    .nav-menu-principal {
+        background-color: #292929;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        padding: 0 10px;
+    }
+
+    .logo-principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    #img-logo-menu {
+        width: 55.22px;
+        height: 51.05px;
+    }
+
+    #title-principal-amarelo {
+        color: #F8AF35;
+    }
+
+    .items-menu a {
+        padding: 0 20px;
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #botao-menu-principal {
+        background-color: #F8AF35;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        padding: 0 20px;
+    }
