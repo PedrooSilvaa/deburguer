@@ -96,3 +96,76 @@
             color: #F8AF35;
         }
     }
+
+    .grid-cardapio {
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 40px 0;
+    }
+
+    .box{
+        background-color: #F8AF35;
+        width: 500px;
+        height: fit-content;
+        padding: 20px ;
+        color: #fff;
+        display: grid;
+        place-items: end;
+        text-align: end;
+        border-radius: 20px;
+        li {
+            list-style: none;
+        }
+        h1 {
+            color: #F8AF35;
+        }
+    }
+
+    .um {
+        background-image: url(../images/png/lancheUM.png);
+        background-position: right;
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .dois {
+        background-image: url(../images/png/lancheDOIS.png);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .tres {
+        background-image: url(../images/png/lancheTRES.png);
+        background-position: right;
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .quatro {
+        background-image: url(../images/png/lancheQUATRO.png);
+        background-position: right;
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .preco-cardapio {
+        background-color: #F8AF35;
+        text-align: center;
+        color: #fff;
+        padding: 0 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .texto-cardapio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
