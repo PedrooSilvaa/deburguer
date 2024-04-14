@@ -59,10 +59,10 @@
         height: 90vh;
         width: 100%;
         display: flex;
-        background-image: url(https://s3-alpha-sig.figma.com/img/c7e6/194b/489bb3a2fa41d40c4e9f3b85fcafe9e2?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C6YSmbN6vqQtb9FNziOg2oqVdD4xDsudIdWYtEhTNQNq3DsJntf0OkbCJ-Vndoa3Xej~~bQ~fdqY2ZSSyjB3vDFVpVZBt2nf5F51ch0JvmQ6o5D~u~nOo5CyI3rqOP~N2OC4CYZgtMFXIGuPp0NYzJt8IS5tZ8YkCaV1d9AgG1mI5hZkfOFOU3feP0E10u9027mgTIwVmF7LXKkWYT-yckmpaYxqFo9nF7HoUOIT8g~94kLfqfTFQVkC-Jsj810UfhpREo59CYTiUeIroiOF1pZpinT5rSwR1XQwU1Dt8BpNbar-oTakh7N17UOcxO0VYQjbnWfOeoKRn50cdmKVTg__);
-        background-position: 300%;
+        background-image: url(../images/png/hamburguer_photos\ 1.png);
+        background-position: 100%;
         background-repeat: no-repeat;
-        background-size: 1100px;
+        background-size: 60%;
     }
 
     .texto-inicio-pagina {
@@ -169,3 +169,50 @@
         align-items: center;
         margin: 20px 0;
     }
+
+    .bebidas-principais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .txt-bebida {
+        h1{
+            font-size: 70px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .bebidas-grid {
+        display: grid;
+        margin-top: 70px;
+        justify-content: center;
+        place-items: center;
+        width: 60%;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+        border: 3px solid #000000;
+        border-radius: 44px;
+        padding: 40px 100px;
+    }
+
+    .box-bebidas {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        text-align: left;
+        border-bottom: 1px solid #000000;
+        
+
+        h1 {
+            color: #F8AF35;
+        }
+    }
+
+    
