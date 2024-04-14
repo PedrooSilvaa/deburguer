@@ -215,4 +215,48 @@
         }
     }
 
-    
+    .txt-localizacao {
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .localizacao-principal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        background-color: #292929;
+        color: #fff;
+    }
+
+    .img-loc  img{
+        height: 400px;
+        border-radius: 44px;
+        margin: 20px 0;
+    }
+
+    .botoes-finais {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+        strong{
+            color: #F8AF35;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 20px;
+            border-radius: 44px;
+            background-color: #F8AF35;
+            color: #fff;
+        }
+    }
